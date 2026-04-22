@@ -193,7 +193,7 @@ df_alt.to_csv('output_alternate.csv', index = False)
 * MIDD — Maternally inherited diabetes and deafness (MIDD)
 * NARP — Neurogenic muscle weakness, ataxia, and retinitis pigmentosa
 
-## Author’s Note
+## Author’s note
 This project was developed as a bioinformatics learning project. The code was written and refined by the author, with assistance from AI tools for code suggestions, debugging, and optimization. Workflow design, data processing, and biological interpretation were conducted by the author.
 
 ## References
