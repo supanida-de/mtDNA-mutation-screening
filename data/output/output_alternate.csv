@@ -1,0 +1,122 @@
+Sample_ID,Position,Reference,Alternate,Match,Gene,Disease,Classification
+NC_012920.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+NC_012920.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+NC_012920.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+AC_000021.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+AC_000021.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+AC_000021.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+J01415.2,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+J01415.2,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+J01415.2,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+EU567326.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+EU567326.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+EU567326.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+EU567326.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+AF346966.1,4833,A,G,ALT,"MT-ND2, complex I",LS,Reported mutation
+AF346966.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+AF346966.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+AF346966.1,15927,G,A,ALT,tRNA,LHON,Reported mutation
+AF346966.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+AF346966.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+HQ287895.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+HQ287895.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+HQ287895.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+HQ287895.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+HQ287896.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+HQ287896.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+HQ287896.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+HQ287896.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MH449354.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MH449354.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MH449354.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+MH449354.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MH449045.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MH449045.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MH449045.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+MH449045.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MN699918.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MN699918.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MN699918.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MN699916.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MN699916.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MN699916.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MN699906.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MN699906.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MN699906.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MN699894.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MN699894.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MN699894.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+MN699891.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+MN699891.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+MN699891.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+GU808335.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+GU808335.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+GU808335.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+GU808335.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+GU812901.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+GU812901.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+GU812901.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+GU812901.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+GU726895.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+GU726895.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+GU726895.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+GU726895.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+GU722599.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+GU722599.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+GU722599.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+GU722599.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+OP682074.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+OP682074.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+OP682074.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+OP682074.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+OP681985.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+OP681985.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+OP681985.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+OP681985.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KX675306.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KX675306.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KX675306.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KX675306.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KX675305.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KX675305.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KX675305.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KX675305.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KX675299.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KX675299.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KX675299.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KX675299.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+JQ703509.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+JQ703509.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+JQ703509.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+JQ703509.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+JQ703495.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+JQ703495.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+JQ703495.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+JQ703495.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+JQ703493.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+JQ703493.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+JQ703493.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+JQ703493.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KC251754.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KC251754.1,12338,T,C,ALT,"MT-ND5, complex I",LS,Reported mutation
+KC251754.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KC251754.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KC251754.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KC251748.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KC251748.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KC251748.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KC251748.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KJ093758.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KJ093758.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KJ093758.1,1644,G,A,ALT,MT-TV,MELAS,Reported mutation
+KJ093758.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KF056318.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KF056318.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KF056318.1,3308,T,C,ALT,"MT-ND1, complex I",MELAS,Reported mutation
+KF056318.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KF056303.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KF056303.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KF056303.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
+KF056302.1,11777,A,C,ALT,"MT-ND4, complex I",LS,Reported mutation
+KF056302.1,12848,T,C,ALT,"MT-ND5, complex I",LHON,Reported mutation
+KF056302.1,3421,A,G,ALT,"MT-ND1, complex I",MIDD,Reported mutation
