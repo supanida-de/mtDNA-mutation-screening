@@ -2,7 +2,7 @@
 Python-based mtDNA mutation screening pipeline with QC and clinical annotation, developed as a bioinformatics learning project.
 
 ## About the project
-Mitochondria are an important cell organelle that functions in generating ATP for cells as a source of chemical energy. This mechanism is involved in several genes in the nucleus and mitochondria. However, the abnormal genes in mitochondria can affect and cause diseases in humans, including Leigh syndrome, Leber hereditary optic neuropathy (LHON), myoclonic epilepsy with ragged red fibers (MERRF), and mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes (MELAS). This project implements a Python-based pipeline to identify mutations in mitochondrial DNA (mtDNA) sequences of humans available in the NCBI database. Mutation information and clinical annotation were curated from the Mustafa et al. study.
+Mitochondria are an important cell organelle that functions in generating ATP for cells as a source of chemical energy. This mechanism is mediated by proteins encoded by both nuclear and mitochondrial genes [1-2]. However, the abnormal genes in mitochondria can affect and cause diseases in humans, including Leigh syndrome, Leber hereditary optic neuropathy (LHON) [3], myoclonic epilepsy with ragged red fibers (MERRF) [4], and mitochondrial encephalomyopathy, lactic acidosis, and stroke-like episodes (MELAS) [5]. This project implements a Python-based pipeline to identify mutations in mitochondrial DNA (mtDNA) sequences of humans available in the NCBI database. Mutation information and clinical annotation were curated from the Mustafa et al. study [6].
 
 ## Features
 * SNP-based mtDNA mutation detection from FASTA sequences  
@@ -144,7 +144,7 @@ results = screen(passed, mut_db)
   * REF: observed base matches the reference (no mutation)
 * Stores mutation details along with gene, disease, and classification information
 #### Filtering only alternate
-This step filters the screening results to retain only detected mutations (alternate allele matches). It also extracts clinically relevant variants classified as primary mutations.
+This step filters the screening results to retain only detected mutations (alternate allele matches). It also extracts clinically relevant variants classified as primary mutations, which are the most common mutation associated with the disease.
 ```
 alt_mut = []
 primary = []
@@ -192,8 +192,14 @@ df_alt.to_csv('output_alternate.csv', index = False)
 * MERRF — Myoclonic epilepsy associated with ragged red fibers
 * MIDD — Maternally inherited diabetes and deafness (MIDD)
 * NARP — Neurogenic muscle weakness, ataxia, and retinitis pigmentosa
-### Classification abbriviation
-* VUS — Variant of uncertain significance
 
-## Note
-This project was developed as a bioinformatics learning project. The code was written and refined by the author, with assistance from AI tools for code suggestions, debugging, and optimization. Workflow design, data processing, and biological interpretation were performed by the author.
+## Author’s Note
+This project was developed as a bioinformatics learning project. The code was written and refined by the author, with assistance from AI tools for code suggestions, debugging, and optimization. Workflow design, data processing, and biological interpretation were conducted by the author.
+
+## References
+[1] Sato, M., and Sato, K. (2013). Maternal inheritance of mitochondrial DNA by diverse mechanisms to eliminate paternal mitochondrial DNA. Biochim Biophys Acta 1833(8), 1979-1984. doi: 10.1016/j.bbamcr.2013.03.010.
+[2] Jonckheere, A.I., Smeitink, J.A., and Rodenburg, R.J. (2012). Mitochondrial ATP synthase: architecture, function and pathology. J Inherit Metab Dis 35(2), 211-225. doi: 10.1007/s10545-011-9382-9.
+[3] Cwerman-Thibault, H., Augustin, S., Ellouze, S., Sahel, J.A., and Corral-Debrinski, M. (2014). Gene therapy for mitochondrial diseases: leber hereditary optic neuropathy as the first candidate for a clinical trial. C R Biol 337(3), 193-206. doi: 10.1016/j.crvi.2013.11.011.
+[4] Mancuso, M., Petrozzi, L., Filosto, M., Nesti, C., Rocchi, A., Choub, A., et al. (2007). MERRF syndrome without ragged-red fibers: the need for molecular diagnosis. Biochem Biophys Res Commun 354(4), 1058-1060. doi: 10.1016/j.bbrc.2007.01.099.
+[5] Wang, Y.X., and Le, W.D. (2015). Progress in diagnosing mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes. Chin Med J (Engl) 128(13), 1820-1825. doi: 10.4103/0366-6999.159360.
+[6] Mustafa, M.F., Fakurazi, S., Abdullah, M.A., and Maniam, S. (2020). Pathogenic mitochondria DNA mutations: current detection tools and interventions. Genes (Basel) 11(2). doi: 10.3390/genes11020192.
