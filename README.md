@@ -175,8 +175,25 @@ df_alt.to_csv('output_alternate.csv', index = False)
 
 ## Limitations
 * Only supports SNP detection (no insertion/deletion handling)
-* Assumes sequences are aligned to rCRS
+* Assumes sequences are aligned to Revised Cambridge Reference Sequence (rCRS) of the human mtDNA
 * Sequences with abnormal length are excluded during QC
+
+## Abbreviations
+* mtDNA — mitochondrial DNA  
+* REF — reference allele  
+* ALT — alternate allele (variant)  
+* QC — quality control  
+### Disease abbreviations
+* CPEO — Chronic progressive external ophthalmoplegia
+* KSS — Kearns–Sayre syndrome
+* LHON — Leber hereditary optic neuropathy
+* LS — Leigh syndrome
+* MELAS — Mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes
+* MERRF — Myoclonic epilepsy associated with ragged red fibers
+* MIDD — Maternally inherited diabetes and deafness (MIDD)
+* NARP — Neurogenic muscle weakness, ataxia, and retinitis pigmentosa
+### Classification abbriviation
+* VUS — Variant of uncertain significance
 
 ## Note
 This project was developed as a bioinformatics learning project. The code was written and refined by the author, with assistance from AI tools for code suggestions, debugging, and optimization. Workflow design, data processing, and biological interpretation were performed by the author.
