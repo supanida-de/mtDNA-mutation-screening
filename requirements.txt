@@ -1,0 +1,3 @@
+# Dependencies for mtDNA mutation screening tool
+1. pandas
+2. biopython
