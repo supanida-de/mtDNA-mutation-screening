@@ -197,9 +197,9 @@ df_alt.to_csv('output_alternate.csv', index = False)
 This project was developed as a bioinformatics learning project. The code was written and refined by the author, with assistance from AI tools for code suggestions, debugging, and optimization. Workflow design, data processing, and biological interpretation were conducted by the author.
 
 ## References
-[1] Sato, M., and Sato, K. (2013). Maternal inheritance of mitochondrial DNA by diverse mechanisms to eliminate paternal mitochondrial DNA. Biochim Biophys Acta 1833(8), 1979-1984. doi: 10.1016/j.bbamcr.2013.03.010.
-[2] Jonckheere, A.I., Smeitink, J.A., and Rodenburg, R.J. (2012). Mitochondrial ATP synthase: architecture, function and pathology. J Inherit Metab Dis 35(2), 211-225. doi: 10.1007/s10545-011-9382-9.
-[3] Cwerman-Thibault, H., Augustin, S., Ellouze, S., Sahel, J.A., and Corral-Debrinski, M. (2014). Gene therapy for mitochondrial diseases: leber hereditary optic neuropathy as the first candidate for a clinical trial. C R Biol 337(3), 193-206. doi: 10.1016/j.crvi.2013.11.011.
-[4] Mancuso, M., Petrozzi, L., Filosto, M., Nesti, C., Rocchi, A., Choub, A., et al. (2007). MERRF syndrome without ragged-red fibers: the need for molecular diagnosis. Biochem Biophys Res Commun 354(4), 1058-1060. doi: 10.1016/j.bbrc.2007.01.099.
-[5] Wang, Y.X., and Le, W.D. (2015). Progress in diagnosing mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes. Chin Med J (Engl) 128(13), 1820-1825. doi: 10.4103/0366-6999.159360.
+[1] Sato, M., and Sato, K. (2013). Maternal inheritance of mitochondrial DNA by diverse mechanisms to eliminate paternal mitochondrial DNA. Biochim Biophys Acta 1833(8), 1979-1984. doi: 10.1016/j.bbamcr.2013.03.010.  
+[2] Jonckheere, A.I., Smeitink, J.A., and Rodenburg, R.J. (2012). Mitochondrial ATP synthase: architecture, function and pathology. J Inherit Metab Dis 35(2), 211-225. doi: 10.1007/s10545-011-9382-9.  
+[3] Cwerman-Thibault, H., Augustin, S., Ellouze, S., Sahel, J.A., and Corral-Debrinski, M. (2014). Gene therapy for mitochondrial diseases: leber hereditary optic neuropathy as the first candidate for a clinical trial. C R Biol 337(3), 193-206. doi: 10.1016/j.crvi.2013.11.011.  
+[4] Mancuso, M., Petrozzi, L., Filosto, M., Nesti, C., Rocchi, A., Choub, A., et al. (2007). MERRF syndrome without ragged-red fibers: the need for molecular diagnosis. Biochem Biophys Res Commun 354(4), 1058-1060. doi: 10.1016/j.bbrc.2007.01.099.  
+[5] Wang, Y.X., and Le, W.D. (2015). Progress in diagnosing mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke-like episodes. Chin Med J (Engl) 128(13), 1820-1825. doi: 10.4103/0366-6999.159360.  
 [6] Mustafa, M.F., Fakurazi, S., Abdullah, M.A., and Maniam, S. (2020). Pathogenic mitochondria DNA mutations: current detection tools and interventions. Genes (Basel) 11(2). doi: 10.3390/genes11020192.
