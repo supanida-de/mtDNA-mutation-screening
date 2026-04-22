@@ -25,6 +25,21 @@ Example input and output datasets are included in this repository.
 * Python 3.x
 * Pandas
 * Biopython
+### Installation dependencies
+#### Using pip
+Install all required packages:
+```
+# Install Biopython
+pip install pandas biopython
+
+# Install pandas
+pip install pandas
+```
+#### Using Anaconda
+If you are using Anaconda, `pandas` is typically pre-installed. You only need to install Biopython:
+```
+pip install biopython
+```
 ### Run the pipeline
 #### Import libraries
 ```
@@ -47,6 +62,7 @@ The `pd.read_csv()` function from pandas is used to load mutation data stored in
 mut_db = pd.read_csv('mtDNA_mutation_database.csv')
 ```
 #### QC filtering of sequences
+This step performs quality control (QC) by filtering sequences based on their length. Only sequences with the expected mitochondrial genome length (16,569 bp) are retained for downstream analysis, while sequences with abnormal lengths are flagged in the `fail` variable. The fail report is then converted into a DataFrame using `pd.DataFrame()` and exported as a CSV file using `.to_csv()`.
 ```
 passed = {}
 fail = []
@@ -65,14 +81,16 @@ for name, seq in data.items():
                      'Reason': 'long_length'})
 
 print(fail)
-```
-#### Export QC report
-```
+
 df = pd.DataFrame(fail)
 df.to_csv('fail_report.csv', index = False)
 ```
+* `passed`: stores sequences that pass QC and will be used for mutation screening
+* `fail`: stores sequences that do not meet the expected length criteria, along with the reason for exclusion
 #### Mutation screening
+This step performs mutation screening by comparing each nucleotide in the input sequences with a curated mutation database. For each position, the observed base in the sequence is compared against the reference and alternate alleles.
 ```
+# Functional generation
 def screen(passed, mut_db):
     results = []
     
@@ -115,9 +133,18 @@ def screen(passed, mut_db):
     
     return results
 
+# Analysis
 results = screen(passed, mut_db)
 ```
+* Iterates through each sequence that passed QC
+* Compares each position with the mutation database
+* Converts genomic coordinates from 1-based to Python 0-based indexing
+* Classifies matches as:
+  * ALT: observed base matches the mutation (variant detected)
+  * REF: observed base matches the reference (no mutation)
+* Stores mutation details along with gene, disease, and classification information
 #### Filtering only alternate
+This step filters the screening results to retain only detected mutations (alternate allele matches). It also extracts clinically relevant variants classified as primary mutations.
 ```
 alt_mut = []
 patho = []
@@ -130,7 +157,14 @@ for i in results:
         if i.get('Classification') == 'Primary mutations':
             patho.append(i)
 ```
+* Filters results to include only `ALT` matches (detected variants)
+* Stores all detected mutations in `alt_mut`
+* Further filters mutations classified as primary into `patho`
+* Enables separation of general variants from clinically significant mutations
 #### Export analysis results
+The results will be generated as CSV files:
+* output_report.csv
+* output_alternate.csv
 ```
 df_results = pd.DataFrame(results)
 df_results.to_csv('output_report.csv', index = False) 
@@ -138,6 +172,7 @@ df_results.to_csv('output_report.csv', index = False)
 df_alt = pd.DataFrame(alt_mut)
 df_alt.to_csv('output_alternate.csv', index = False) 
 ```
+
 ## Limitations
 * Only supports SNP detection (no insertion/deletion handling)
 * Assumes sequences are aligned to rCRS
