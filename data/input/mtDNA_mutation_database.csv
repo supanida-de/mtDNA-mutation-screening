@@ -1,0 +1,134 @@
+﻿Position,Reference,Alternate,Disease,Gene,Classification
+8993,T,C,LS,"MT-ATP6, complex 5",Reported mutation
+8993,T,C,LS,"MT-ATP6, complex 5",Primary mutations
+8993,A,C,LS,"MT-ATP6, complex 5",Reported mutation
+9176,T,C,LS,"MT-ATP6, complex 5",Reported mutation
+3460,G,A,LS,"MT-ND1, complex I",Reported mutation
+3697,G,A,LS,"MT-ND1, complex I",Reported mutation
+3946,G,A,LS,"MT-ND1, complex I",Reported mutation
+4681,T,C,LS,"MT-ND2, complex I",Reported mutation
+4833,A,G,LS,"MT-ND2, complex I",Reported mutation
+10134,C,A,LS,"MT-ND3, complex I",Reported mutation
+10158,T,C,LS,"MT-ND3, complex I",Reported mutation
+10191,T,C,LS,"MT-ND3, complex I",Primary mutations
+10197,G,A,LS,"MT-ND3, complex I",Reported mutation
+10254,G,A,LS,"MT-ND3, complex I",Reported mutation
+11240,C,T,LS,"MT-ND4, complex I",Reported mutation
+11777,A,C,LS,"MT-ND4, complex I",Reported mutation
+11778,G,A,LS,"MT-ND4, complex I",Reported mutation
+12706,T,C,LS,"MT-ND5, complex I",Reported mutation
+13513,G,A,LS,"MT-ND5, complex I",Reported mutation
+13514,T,C,LS,"MT-ND5, complex I",Reported mutation
+12338,T,C,LS,"MT-ND5, complex I",Reported mutation
+14439,G,A,LS,"MT-ND6, complex I",Reported mutation
+14502,T,C,LS,"MT-ND6, complex I",Reported mutation
+14459,G,A,LS,"MT-ND6, complex I",Reported mutation
+14487,T,C,LS,"MT-ND6, complex I",Reported mutation
+8108,A,G,LS,"MT-CO2, complex I",Reported mutation
+3243,A,G,LS,MT-TL I,Reported mutation
+3376,G,A,LHON,"MT-ND1, complex I",Reported mutation
+3394,T,C,LHON,"MT-ND1, complex I",Reported mutation
+3395,A,G,LHON,"MT-ND1, complex I",Reported mutation
+3460,G,A,LHON,"MT-ND1, complex I",Primary mutations
+3472,T,C,LHON,"MT-ND1, complex I",Reported mutation
+3634,A,G,LHON,"MT-ND1, complex I",Reported mutation
+3635,G,A,LHON,"MT-ND1, complex I",Reported mutation
+3697,G,A,LHON,"MT-ND1, complex I",Reported mutation
+3700,G,A,LHON,"MT-ND1, complex I",Reported mutation
+3733,G,A,LHON,"MT-ND1, complex I",Reported mutation
+3866,T,C,LHON,"MT-ND1, complex I",Reported mutation
+4171,C,A,LHON,"MT-ND1, complex I",Reported mutation
+4640,C,A,LHON,"MT-ND2, complex I",Reported mutation
+9804,G,A,LHON,"MT-CO3, complex 4",Reported mutation
+10197,G,A,LHON,"MT-ND3, complex I",Reported mutation
+10663,T,C,LHON,"MT-ND4, complex I",Reported mutation
+11778,G,A,LHON,"MT-ND4, complex I",Primary mutations
+13051,G,A,LHON,"MT-ND5, complex I",Reported mutation
+13094,T,C,LHON,"MT-ND5, complex I",Reported mutation
+12848,T,C,LHON,"MT-ND5, complex I",Reported mutation
+14279,G,A,LHON,"MT-ND6, complex I",Reported mutation
+14459,G,A,LHON,"MT-ND6, complex I",Reported mutation
+14482,C,A,LHON,"MT-ND6, complex I",Reported mutation
+14482,C,G,LHON,"MT-ND6, complex I",Reported mutation
+14484,A,G,LHON,"MT-ND6, complex I",Primary mutations
+14495,A,G,LHON,"MT-ND6, complex I",Reported mutation
+14502,T,C,LHON,"MT-ND6, complex I",Reported mutation
+14568,C,T,LHON,"MT-ND6, complex I",Reported mutation
+15927,G,A,LHON,tRNA,Reported mutation
+611,G,A,MERRF,MT-TF,Reported mutation
+3255,G,A,MERRF,MT-TL1,Reported mutation
+3291,T,C,MERRF,MT-TL1,Reported mutation
+4279,A,G,MERRF,MT-TI,Reported mutation
+4284,G,A,MERRF,MT-TI,Reported mutation
+5521,G,A,MERRF,MT-TW,Reported mutation
+7512,T,C,MERRF,MT-TS1,Reported mutation
+8296,A,G,MERRF,MT-TK,Reported mutation
+8344,A,G,MERRF,MT-TK,Primary mutations
+8356,T,C,MERRF,MT-TK,Primary mutations
+8361,G,A,MERRF,MT-TK,Reported mutation
+8363,G,A,MERRF,MT-TK,Reported mutation
+12147,G,A,MERRF,MT-TH,Reported mutation
+12300,G,A,MERRF,MT-TL2,Reported mutation
+13042,A,T,MERRF,"MT-ND5, complex I",Reported mutation
+14709,T,C,MERRF,"MT-ND6, complex I",Reported mutation
+15967,G,A,MERRF,MT-TP,Reported mutation
+583,G,A,MELAS,MT-TF,Reported mutation
+1616,A,G,MELAS,MT-TV,Reported mutation
+1630,A,G,MELAS,MT-TV,Reported mutation
+1642,G,A,MELAS,MT-TV,Reported mutation
+1644,G,A,MELAS,MT-TV,Reported mutation
+3093,C,G,MELAS,MT-RNR2,Reported mutation
+3243,A,G,MELAS,MT-TL1,Primary mutations
+3244,G,A,MELAS,MT-TL1,Reported mutation
+3252,A,G,MELAS,MT-TL1,Reported mutation
+3256,C,T,MELAS,MT-TL1,Reported mutation
+3258,T,C,MELAS,MT-TL1,Reported mutation
+3260,A,G,MELAS,MT-TL1,Reported mutation
+3271,T,C,MELAS,MT-TL1,Primary mutations
+3291,T,C,MELAS,MT-TL1,Reported mutation
+3308,T,C,MELAS,"MT-ND1, complex I",Reported mutation
+3376,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3380,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3481,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3697,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3946,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3949,T,C,MELAS,"MT-ND1, complex I",Reported mutation
+3959,G,A,MELAS,"MT-ND1, complex I",Reported mutation
+3995,A,G,MELAS,"MT-ND1, complex I",Reported mutation
+4290,T,C,MELAS,MT-T1,Reported mutation
+4320,C,T,MELAS,MT-T1,Reported mutation
+4332,G,A,MELAS,MT-TQ,Reported mutation
+5540,G,A,MELAS,MT-TW,Reported mutation
+5693,T,C,MELAS,MT-TN,Reported mutation
+5814,T,C,MELAS,MT-TC,Reported mutation
+5816,A,G,MELAS,MT-TC,Reported mutation
+6597,C,A,MELAS,"MT-CO1, complex 4",Reported mutation
+8316,T,C,MELAS,MT-TK,Reported mutation
+9957,T,C,MELAS,"MT-CO3, complex I",Reported mutation
+10197,G,A,MELAS,"MT-ND3, complex I",Reported mutation
+12146,A,C,MELAS,MT-TH,Reported mutation
+12206,C,T,MELAS,MT-TH,Reported mutation
+12299,A,C,MELAS,MT-TL2,Reported mutation
+12770,A,G,MELAS,"MT-ND5, complex I",Reported mutation
+13042,A,T,MELAS,"MT-ND5, complex I",Reported mutation
+13045,A,C,MELAS,"MT-ND5, complex I",Reported mutation
+13046,T,C,MELAS,"MT-ND5, complex I",Reported mutation
+13084,A,T,MELAS,"MT-ND5, complex I",Reported mutation
+13513,G,A,MELAS,"MT-ND5, complex I",Reported mutation
+13514,A,G,MELAS,"MT-ND5, complex I",Reported mutation
+13528,A,G,MELAS,"MT-ND5, complex I",Reported mutation
+13849,A,C,MELAS,"MT-ND5, complex I",Reported mutation
+14693,A,G,MELAS,MT-TE,Reported mutation
+14453,G,A,MELAS,"MT-ND6, complex I",Reported mutation
+14864,T,C,MELAS,"MT-CYB, complex 3",Reported mutation
+15092,G,A,MELAS,"MT-CYB, complex 3",Reported mutation
+15533,A,G,MELAS,"MT-CYB, complex 3",Reported mutation
+3243,A,G,KSS,MT-TL1,Reported mutation
+4414,T,C,CPEO,MT-TM,Reported mutation
+5667,G,A,CPEO,MT-TN,Reported mutation
+12315,G,A,CPEO,MT-TL2,Reported mutation
+8993,T,C,NARP,"MT-ATP6, complex 5",Primary mutations
+8993,T,G,NARP,"MT-ATP6, complex 5",Primary mutations
+3243,A,G,MIDD,tRNA,Primary mutations
+3421,A,G,MIDD,"MT-ND1, complex I",Reported mutation
+8241,T,G,MIDD,MT-CO2,Reported mutation
