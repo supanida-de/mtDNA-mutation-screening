@@ -147,7 +147,7 @@ results = screen(passed, mut_db)
 This step filters the screening results to retain only detected mutations (alternate allele matches). It also extracts clinically relevant variants classified as primary mutations.
 ```
 alt_mut = []
-patho = []
+primary = []
 
 for i in results:
     
@@ -155,11 +155,11 @@ for i in results:
         alt_mut.append(i)
 
         if i.get('Classification') == 'Primary mutations':
-            patho.append(i)
+            primary.append(i)
 ```
 * Filters results to include only `ALT` matches (detected variants)
 * Stores all detected mutations in `alt_mut`
-* Further filters mutations classified as primary into `patho`
+* Further filters mutations classified as primary into `primary`
 * Enables separation of general variants from clinically significant mutations
 #### Export analysis results
 The results will be generated as CSV files:
